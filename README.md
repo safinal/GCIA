@@ -1,4 +1,4 @@
-# Master's Thesis: Mitigating Spurious Correlations in Image Datasets via Counterfactual Image Augmentation
+# Master's Thesis: Mitigating Spurious Correlations in Image Datasets via Generative Counterfactual Image Augmentation
 
 <img width="1804" height="872" alt="ChatGPT Image Aug 24, 2026, 05_24_35 PM" src="https://github.com/user-attachments/assets/82cff478-cffa-4b74-84d9-37def211c5b8" />
 
@@ -35,7 +35,7 @@ uv run edit_images.py \
     --edit_model "${editing_model}"
 ```
 
-3. **CIA**:
+3. **GCIA**:
 ```bash
 DATASET="celeba"
 EDITING_MODEL="flux2_klein_4b"
@@ -91,7 +91,7 @@ uv run save_features.py \
     --sample_size "$sample_size"
 ```
 
-- CIA with `--feature_only` used:
+- GCIA with `--feature_only` used:
 ```bash
 DATASET="celeba"
 EDITING_MODEL="flux2_klein_4b"
@@ -130,8 +130,7 @@ uv run main.py \
 | **SELF** | **✗/✗✓** | 91.6±1.4 | 93.6±1.1 | 83.9±0.9 | 91.7±0.4 | 83.2±0.8 | 90.0±0.5 |
 | **AFR** | **✗/✗✓** | 90.4±1.1 | 94.2±1.2 | 82.0±0.5 | 91.3±0.3 | 80.2±2.0 | 87.1±1.2 |
 | **EVaLS-GL** | **✗/✗✓** | 89.4±0.3 | 95.1±0.3 | 84.6±1.6 | 91.1±0.6 | 83.5±1.7 | 88.3±0.9 |
-| **CIA-4B (Ours)** | **✗/✗✓** | 91.4±0.7 | 94.9±0.3 | 84.8±2.2 | 91.2±0.5 | 78.7±0.8 | 85.9±1.0 |
-| **CIA-9B (Ours)** | **✗/✗✓** | 90.3±0.4 | 95.1±0.3 | 85.6±2.1 | 90.8±0.7 | 79.5±1.9 | 87.5±0.4 |
+| **GCIA (Ours)** | **✗/✗✓** | 90.3±0.4 | 95.1±0.3 | 85.6±2.1 | 90.8±0.7 | 79.5±1.9 | 87.5±0.4 |
 | **DFR** | **✗/✓✓** | 92.9±0.2 | 94.2±0.4 | 88.3±1.1 | 91.3±0.3 | 79.6±2.2 | 87.5±0.6 |
 | **SSA** | **✗/✓✓** | 89.0±0.6 | 92.2±0.9 | 89.8±1.3 | 92.8±0.1 | - | - |
 
