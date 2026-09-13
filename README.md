@@ -134,6 +134,17 @@ uv run main.py \
 | **DFR** | **✗/✓✓** | 92.9±0.2 | 94.2±0.4 | 88.3±1.1 | 91.3±0.3 | 79.6±2.2 | 87.5±0.6 |
 | **SSA** | **✗/✓✓** | 89.0±0.6 | 92.2±0.9 | 89.8±1.3 | 92.8±0.1 | - | - |
 
+### XGrad-CAM
+#### Waterbirds
+<img width="755" height="1280" alt="photo_2026-09-13_16-23-52" src="https://github.com/user-attachments/assets/2bb42bd3-2e60-40af-8922-b6dc5c0f539b" />
+
+#### CelebA
+<img width="782" height="1280" alt="photo_2026-09-13_16-23-52" src="https://github.com/user-attachments/assets/d6cf08e1-315b-47ad-9c0f-8cbd5368c002" />
+
+#### UrbanCars
+<img width="753" height="1280" alt="photo_2026-09-13_16-23-52" src="https://github.com/user-attachments/assets/a913821e-73fd-4ca1-b4a8-a195a901dbbc" />
+
+
 ## Datasets
 - [CelebA](https://drive.google.com/file/d/1kMs0KmmdqxXvEXHRA6YFTlHrKGTVZdV9/view?usp=drive_link)
 - [Waterbirds](https://drive.google.com/file/d/1UxSEZ1W0A4530ekGT8SsUCveqn2AMlL3/view?usp=sharing)
